@@ -1,0 +1,16 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "Weather App with React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Weather",
+    "API",
+    "react"
+  ],
+  "author": "Ary Vidot",
+  "license": "ISC"
+}

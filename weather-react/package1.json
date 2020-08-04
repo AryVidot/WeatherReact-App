@@ -6,11 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "Weather",
-    "API",
-    "react"
-  ],
+  "keywords": ["Weather", "API", "react"],
   "author": "Ary Vidot",
   "license": "ISC"
 }

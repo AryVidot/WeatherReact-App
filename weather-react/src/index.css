@@ -8,6 +8,13 @@ body {
   font-family: "montserrat", sans-serif;
 }
 
+/* .bg-image {
+  background-image: url(./assets/bkg1.jpg);
+  filter: blur(8px);
+  background-size: cover;
+  background-position: bottom;
+} */
+
 .app {
   background-image: url(./assets/bkg1.jpg);
   background-size: cover;
@@ -16,7 +23,7 @@ body {
 }
 
 main {
-  border: 3px solid rgba(255, 255, 255, 0.4);
+  border: 3px solid rgb(255, 255, 255);
   background-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.1),
@@ -47,11 +54,96 @@ main {
   box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
 
   color: aqua;
-  font-size: 1.25em;
+  font-size: 1.25rem;
 
   transition: 0.4s ease;
 }
 
 .search-box .search-bar:focus {
   background-color: rgba(255, 255, 255, 0.8);
+}
+
+.location-box {
+  position: relative;
+  height: 20vh;
+}
+
+.location-box .location {
+  position: absolute;
+  top: -25%;
+  left: 5%;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  text-shadow: 2px 2px rgb(224, 24, 117);
+  /* background-color: rgba(255, 255, 255, 0.8); */
+}
+
+.location-box .date {
+  /* padding: 0 20px; */
+  width: 60%;
+  position: absolute;
+  top: 25%;
+  left: 37%;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-align: center;
+  font-style: italic;
+  background-color: rgb(25, 233, 216);
+  /* text-shadow: 2px 2px rgba(50, 50, 70, 0.5); */
+}
+
+.box {
+  height: 60vh;
+  width: 70vw;
+  background-image: url(./assets/bkg1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(129, 228, 63, 1);
+  box-shadow: 2px 2px rgba(251, 251, 255, 0.5);
+  margin: auto;
+}
+
+.weather-box {
+  /* z-index: 1; */
+  text-align: center;
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-box .temp {
+  color: #fff;
+  font-size: 6.375rem;
+  font-weight: 900;
+  /* position: absolute;
+  top: -60%;
+  left: 20%; */
+  display: flex;
+  margin: -40px auto;
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+}
+
+.weather-box .weather-icon {
+  color: #fff;
+  font-size: 5em;
+  /* position: absolute;
+  top: 80%;
+  left: 40%; */
+  display: flex;
+  margin: 30px auto;
+}
+
+.weather-box .weather {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  /* position: absolute;
+  top: 70%;
+  left: 40%; */
+  /* display: inline-block; */
+  margin: -15px auto;
 }

@@ -8,13 +8,6 @@ body {
   font-family: "montserrat", sans-serif;
 }
 
-/* .bg-image {
-  background-image: url(./assets/bkg1.jpg);
-  filter: blur(8px);
-  background-size: cover;
-  background-position: bottom;
-} */
-
 .app {
   background-image: url(./assets/bkg1.jpg);
   background-size: cover;
@@ -107,7 +100,6 @@ main {
 }
 
 .weather-box {
-  /* z-index: 1; */
   text-align: center;
   margin: auto;
   position: relative;

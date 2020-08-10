@@ -1,6 +1,6 @@
 import React from "react";
 
-const Location = () => {
+const Location = (props) => {
   const dateBuilder = (d) => {
     let months = [
       "January",
@@ -36,10 +36,14 @@ const Location = () => {
   };
 
   return (
-    <div className="location-box">
-      <div className="location"> London, UK </div>
-      <div className="date"> {dateBuilder(new Date())} </div>
-      <div className="box"></div>
+    <div>
+      <div className="location-box">
+        <div name="city" className="location">
+          {props.city}, {props.country}
+        </div>
+        <div className="date"> {dateBuilder(new Date())} </div>
+        <div className="box"></div>
+      </div>
     </div>
   );
 };

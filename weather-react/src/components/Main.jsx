@@ -9,8 +9,6 @@ import WeatherData from "./WeatherData";
 
 const Main = () => {
   const [weather, setWeather] = useState();
-  //   const weather = useState[0]
-  //   const setWeather = useState[1]
   const [city, setCity] = useState("");
   const [country, setCountry] = useState("");
   const [description, setDescription] = useState("");
